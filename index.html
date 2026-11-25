@@ -31,12 +31,12 @@
     <header class="topbar">
       <a class="brand brand-mobile" href="#dashboard"><span class="logo"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-9"/></svg></span><span>STOCKWISE <b>AI</b></span></a>
       <div class="search">
-        <input id="topSearch" type="search" placeholder="Search a sample company or sector" autocomplete="off" aria-label="Search companies">
+        <input id="topSearch" type="search" placeholder="Search an Indian company or sector" autocomplete="off" aria-label="Search companies">
         <div class="search-results" id="topResults" hidden></div>
       </div>
     </header>
 
-    <div class="notice" role="note">DEMO DATA: Values are illustrative and are not live market prices.</div>
+    <div class="notice" role="note">DEMO DATA: Company names are real. All prices and financial figures are illustrative, not live NSE/BSE data.</div>
 
     <main>
       <!-- DASHBOARD -->
@@ -44,9 +44,9 @@
         <div class="hero">
           <div class="hero-text">
             <h1>Welcome to StockWise AI</h1>
-            <p>Explore sample companies, read plain-language trend explanations and practise with ₹1,00,000 of virtual money.</p>
+            <p>Explore Indian companies, read plain-language trend explanations and practise with ₹1,00,000 of virtual money.</p>
             <div class="search hero-search">
-              <input id="heroSearch" type="search" placeholder="Try “Novatek”, “Bank” or “FINX”" autocomplete="off" aria-label="Search companies">
+              <input id="heroSearch" type="search" placeholder="Try “Reliance”, “Bank” or “TCS”" autocomplete="off" aria-label="Search companies">
               <div class="search-results" id="heroResults" hidden></div>
             </div>
             <div class="chips" id="quickChips" aria-label="Quick picks"></div>
@@ -73,7 +73,7 @@
                 <button data-range="1M">1M</button><button data-range="3M">3M</button><button data-range="6M" class="on">6M</button>
               </div>
             </div>
-            <div class="chart-box"><canvas id="dashChart" aria-label="Historical sample price chart" role="img"></canvas></div>
+            <div class="chart-box"><canvas id="dashChart" aria-label="Illustrative demo price chart" role="img"></canvas></div>
             <div class="card-foot"><button class="btn ghost" id="dashAnalyse">Full analysis</button></div>
           </article>
 
@@ -117,7 +117,7 @@
                 <button data-range="1M">1M</button><button data-range="3M">3M</button><button data-range="6M" class="on">6M</button>
               </div>
             </div>
-            <div class="chart-box tall"><canvas id="anChart" aria-label="Historical sample price chart" role="img"></canvas></div>
+            <div class="chart-box tall"><canvas id="anChart" aria-label="Illustrative demo price chart" role="img"></canvas></div>
           </article>
           <article class="card">
             <h3>Company information</h3>
@@ -149,7 +149,7 @@
 
       <!-- COMPARE -->
       <section class="view" id="view-compare">
-        <div class="page-head"><div><h1>Compare companies</h1><p class="sub">Pick two or three sample companies to compare.</p></div></div>
+        <div class="page-head"><div><h1>Compare companies</h1><p class="sub">Pick two or three companies to compare using illustrative demo figures.</p></div></div>
         <article class="card">
           <div class="selects">
             <label>Company A<select id="cmpA"></select></label>
@@ -195,7 +195,7 @@
       </section>
     </main>
 
-    <footer class="footer">STOCKWISE AI is a school capstone prototype. DEMO DATA: Values are illustrative and are not live market prices. Nothing here is financial advice.</footer>
+    <footer class="footer">STOCKWISE AI is a school capstone prototype. DEMO DATA: Company names are real. All prices and financial figures are illustrative, not live NSE/BSE data. Nothing here is financial advice.</footer>
   </div>
 </div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
